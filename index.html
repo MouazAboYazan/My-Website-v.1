@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="og:image" content="imgs/thumnail.png" />
+  <link rel="icon" href="./assets/images/logo.png" />
+  <title>My Website</title>
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+  <!-- /bootstrap -->
+  <!-- font awesome -->
+  <link rel="stylesheet" href="./assets/css/all.min.css" />
+  <!-- /font awesome -->
+  <!-- bondi style -->
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <!-- /bondi style -->
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+    rel="stylesheet" />
+  <!-- /google fonts -->
+</head>
+
+<body>
+
+  <button id="fix-btn" class="btn btn-info ">
+    <a href="#nav">
+      <i class="fa-solid fa-2x fa-circle-up"></i>
+    </a>
+    </button>
+  <!-- nav -->
+  <div id="nav" class="navbar navbar-expand-lg bg-dark navbar-dark text-white">
+    <div class="container">
+      <a href="#" class="navbar-brand">
+        <img class="img-fluid" src="./assets/images/logo.png" alt="logo" width="50px">
+      </a>
+      <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#mainmenu">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+      <div class="collapse navbar-collapse" id="mainmenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a href="" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="" class="nav-link">Services</a></li>
+          <li class="nav-item"><a href="" class="nav-link">Portfolio</a></li>
+          <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
+        </ul>
+      </div> <!-- /collapse -->
+    </div> <!-- /container -->
+  </div> <!-- /navbar -->
+
+
+
+  <!-- hero -->
+<section id="hero" class="bg-dark text-light text-center text-sm-start mt-1 py-5">
+<div class="container">
+  <div class="d-sm-flex align-items-center justify-content-center">
+    <div class="con py-3">
+      <h1 class="display-5"> <span class="text-info"> Hello </span> I'm  Mouaz</h1>
+        <p class="py-1 lead">
+           Front-End developer based in Jordan,
+           I strive to bukild immersive and beautiful web applications through carefully crafted code.
+        </p>
+        <button class="btn btn-info text-white border-0">
+          Contact me
+        </button>
+    </div>
+    <img class="d-none d-sm-block img-fluid w-50" src="./assets/images/hero-img.svg" alt="">
+  </div>
+</div> <!-- /container -->
+</section>
+  <!-- /hero -->
+
+  <!-- my services -->
+<section class="myServices text-center pt-5 pb-5">
+  <div class="features text-center pt-5 pb-5">
+    <div class="container">
+      <div class="main-title mt-5 mb-5 position-relative text-center align-items-center justify-content-center">
+        <h2>My Services</h2>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-lg-4">
+          <div class="feat">
+            <div class="icon-holder position-relative">
+              <i class="fa-solid fa-1 position-absolute bottom-0 number"></i>
+              <i class="fa-solid fa-code fa-4x position-absolute bottom-0 icon"></i>
+            </div>
+            <h4 class="mb-3 mt-3 text-uppercase">Web Development</h4>
+            <p class="text-black-50 lh-lg">
+              Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed,
+              convallis at tellus.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="feat">
+            <div class="icon-holder position-relative">
+              <i class="fa-solid fa-2 position-absolute bottom-0 number"></i>
+              <i class="fa-solid fa-arrows-up-down-left-right fa-4x position-absolute bottom-0 icon"></i>
+            </div>
+            <h4 class="mb-3 mt-3 text-uppercase">Fully Responsive</h4>
+            <p class="text-black-50 lh-lg">
+              Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed,
+              convallis at tellus.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="feat">
+            <div class="icon-holder position-relative">
+              <i class="fa-solid fa-3 position-absolute bottom-0 number"></i>
+              <i class="fa-solid fa-info fa-4x position-absolute bottom-0 icon"></i>
+            </div>
+            <h4 class="mb-3 mt-3 text-uppercase">Customer Support</h4>
+            <p class="text-black-50 lh-lg">
+              Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed,
+              convallis at tellus.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <!-- /my services -->
+
+<!--my portfolio  -->
+<section class="my-work pb-5" id="my-work">
+  <div class="container text-center">
+    <div class="main-title mt-5 mb-5 position-relative">
+      <h2>My Work</h2>
+    </div>
+  <div class="card-group pt-5">
+    <div class="row">
+      <div class="col-md-6 col-lg-4">
+      <div class="card mx-2 mb-5">
+        <img src="./assets/images/bondi-thumnail.png" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Bondi</h5>
+            <p class="card-text">HTML/ CSS/BOOTSTRAP</p>
+            <a href="https://github.com/MouazAboYazan/Bondi"><button class="btn btn-info text-white border-0"> Repository</button></a>
+          <a href="https://mouazaboyazan.github.io/Bondi/"><button class="btn btn-info text-white border-0">Live demo</button></a>
+        </div>
+      </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card mx-2 mb-5">
+          <img src="./assets/images/undraw_not_found_60pq.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Sooner</h5>
+            <p class="card-text">Comming Soon</p>
+            <a href=""><button class="btn btn-info text-white border-0"> Repository</button></a>
+            <a href=""><button class="btn btn-info text-white border-0">Live demo</button></a>
+          </div>
+        </div>
+      </div>
+    <div class="col-md-6 col-lg-4">
+      <div class="card mx-2 mb-5">
+        <img src="./assets/images/undraw_not_found_60pq.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Sooner</h5>
+          <p class="card-text">Comming Soon</p>
+          <a href=""><button class="btn btn-info text-white border-0"> Repository</button></a>
+          <a href=""><button class="btn btn-info text-white border-0">Live demo</button></a>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+</section>
+<!--/my portfolio  -->
+
+<!-- contact me -->
+<section class="contact-me3contact-my my-5">
+  <div class="main-title mt-5 mb-5 position-relative text-center align-items-center justify-content-center">
+    <h2>Contact Me</h2>
+  </div>
+  <div class="container">
+    <form >
+      <div class="row">
+        <div class="col-25">
+          <label for="fname">First Name</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="lname">Last Name</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        </div>
+      </div>
+      <div class="row">
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="subject">Subject</label>
+        </div>
+        <div class="col-75">
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        </div>
+      </div>
+      <div class="row">
+        <button class="btn btn-info text-white border-0" id="submit">SUBMIT!</button>
+      </div>
+    </form>
+  </div>
+</section>
+<!-- /contact me -->
+
+
+<!-- footer -->
+<section class="footer">
+  <!-- Remove the container if you want to extend the Footer to full width. -->
+<div class="mt-5">
+
+  <footer class="bg-dark text-center text-white">
+  <!-- Grid container -->
+  <div class="container p-4 pb-0">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+
+      <!-- Github -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-github"></i
+      ></a>
+
+      <a class="btn btn-outline-light btn-floating m-1" href="./site-info.html" role="button"
+      ><i class="fa-solid fa-circle-info"></i>
+    </a>
+    </section>
+    <!-- Section: Social media -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2022 Copyright:
+    <a class="text-white" href="#">Mouaz Abo Yazan</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+</div>
+<!-- End of .container -->
+</section>
+<!-- /footer -->
+
+
+  <!-- /scripts -->
+  <script src="./assets/js/bootstrap.bundle.min.js"></script>
+  <script src="./assets/js/all.min.js"></script>
+</body>
+
+</html>
